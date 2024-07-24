@@ -51,14 +51,14 @@ export default {
       },
       {
         title: "Après-midi",
-        content: "Rdv en début d'aprèm pour la composition des équipes, puis on part directement après pour Lyon",
+        content: "Rdv en début d'aprèm pour la composition des équipes, puis on part directement sur Lyon",
         icon: "mdi-map-check-outline"
       },
       {
         title: "Soirée",
         content:
-          "Remplissez-vous le bide car vous aurez bien besoin de forces",
-        icon: "mdi-hamburger"
+          "Le début des hostilitées",
+        icon: "mdi-balloon"
       }
     ]
   }),

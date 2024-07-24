@@ -68,7 +68,7 @@ export default {
           name: "Nicolas Guy",
           image: "nguy",
           desc:
-            "C'était vraiment fou. J'ai profité à fond de ce week-end " +
+            "C'était fou. J'ai profité de ce week-end " +
             "alors que je n'y étais même pas ! Je n'imagine même pas ce que " +
             "ça aurait donné si j'étais venu !",
           rating: 5

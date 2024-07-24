@@ -44,11 +44,6 @@ export default {
   data: () => ({
     items: [
       {
-        title: "Matin",
-        content: "Juste venez pas, dormez, vous en aurez besoin",
-        icon: "mdi-sleep"
-      },
-      {
         title: "Midi",
         content: "Petite bouffe pour une première rencontre avec tout le monde",
         icon: "mdi-food"
@@ -56,12 +51,12 @@ export default {
       {
         title: "Après-midi ",
         content: "Visite du département et de l'astus avant de faire un tour du campus",
-        icon: "mdi-map-check-outline"
+        icon: "mdi-home-city-outline"
       },
       {
         title: "Soirée",
         content: "Soirée chill ou un peu moins pour certains",
-        icon: "mdi-map-check-outline"
+        icon: "mdi-party-popper"
       }
     ]
   }),

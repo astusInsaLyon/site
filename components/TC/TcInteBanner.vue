@@ -6,10 +6,10 @@
           <div class="text-center">
             <h2 class="ui-title font-weight-bold">L'INTEGRATION ?</h2>
             <p class="color-white">
-              Un des meilleurs moments de l'année, où vous allez découvrir les
-              gens du département, vos magnifiques marraines/parrains et tout
-              plein de gens. Concrètement c'est un mix entre événements (bouffe,
-              activitée etc) et soirées.
+              Un des meilleurs moments de l'année, où vous allez découvrir les gens du département, 
+              vos magnifiques marraines/parrains et tout plein de gens. 
+              Concrètement c'est un mix entre événements (bouffe, activitée etc) et soirées. 
+              Venez vivre des expériences uniques et créer des souvenirs inoubliables !
             </p>
           </div>
         </v-col>

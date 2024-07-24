@@ -10,9 +10,7 @@
                 Paintball TC/IF
               </h2>
               <p>
-                Vous allez passer la journée à jouer au paint ball, on vous
-                offre deux parties gratuites. Vous pouvez ensuite rejouer mais à
-                vos frais.
+                Au programme, deux parties gratuites de paintball contre les IF, puis quelques lancers de haches entre deux ravitaillements au barbecue.
               </p>
             </div>
           </v-col>
@@ -48,7 +46,7 @@ export default {
       {
         title: "Départ des bus",
         content:
-          "Soit à 9h30 soit à 11h en fonction de votre groupe (vous sera donné plus tard)",
+          "Soit à 9h30 soit à 11h en fonction de votre groupe",
         icon: "mdi-bus"
       },
       {
@@ -57,7 +55,7 @@ export default {
         icon: "mdi-food"
       },
       {
-        title: "Rentrée au départ ",
+        title: "Rentrée des bus ",
         content: "Comme à l'aller deux horaires soit 14h00h soit 16h00",
         icon: "mdi-bus-side"
       }
