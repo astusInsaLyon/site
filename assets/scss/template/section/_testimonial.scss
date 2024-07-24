@@ -1,0 +1,32 @@
+.testimonial-card {
+  .v-card__text {
+    padding: 40px 35px !important;
+  }
+  p {
+    color: $dark;
+    line-height: 26px;
+    height: 120px;
+    overflow-y: auto;
+  }
+  .testimonial-img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  .testimonial-card {
+    .v-card__text {
+      padding: 40px 35px !important;
+    }
+    p {
+      color: $dark;
+      line-height: 26px;
+      height: auto;
+    }
+    .testimonial-img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+}
