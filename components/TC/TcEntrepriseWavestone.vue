@@ -4,13 +4,13 @@
         <v-row class="mb-5" justify="center">
           <v-col cols="12" sm="10" md="9" lg="7">
             <div class="text-center">
-              <h2 class="ui-title font-weight-bold">Business game avec Netsf</h2>
-              <p class="texte-netsf">
+              <h2 class="ui-title font-weight-bold">Conférence avec Wavestone</h2>
+              <p class="texte-wavestone">
                 Le 5 juin 2024 s’est tenu un forum ouvert dans le département avec 15 
                 expert(e)s d’Orange travaillant dans différents domaines. Cybersécurité, 
                 IoT, cloud, management et intervention, consulting, intégration et avant-vente, 
                 les étudiants ont pu échanger sur ces sujets avec plusieurs ingénieurs autour de 
-                différents stands. L’échange fût très enrichissant et a permis à de nombreux étudiants
+                différents stands. L’échange fut très enrichissant et a permis à de nombreux étudiants
                  de découvrir ou d’éclaircir plusieurs domaines d'expertise !
               </p>
             </div>
@@ -66,11 +66,10 @@
   </script>
   
   <style scoped>
-  .texte-netsf {
-    font-size: large ;
+  .texte-wavestone {
+    font-size: large;
     margin-top: 30px;
     margin-bottom: 30px;
-
   }
 
   .custom-carousel {

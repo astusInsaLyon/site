@@ -5,12 +5,12 @@
           <v-col cols="12" sm="10" md="9" lg="7">
             <div class="text-center">
               <h2 class="ui-title font-weight-bold">Forum ouvert avec Orange</h2>
-              <p class="test12">
+              <p class="texte-orange">
                 Le 5 juin 2024 s’est tenu un forum ouvert dans le département avec 15 
                 expert(e)s d’Orange travaillant dans différents domaines. Cybersécurité, 
                 IoT, cloud, management et intervention, consulting, intégration et avant-vente, 
                 les étudiants ont pu échanger sur ces sujets avec plusieurs ingénieurs autour de 
-                différents stands. L’échange fût très enrichissant et a permis à de nombreux étudiants
+                différents stands. L’échange fut très enrichissant et a permis à de nombreux étudiants
                  de découvrir ou d’éclaircir plusieurs domaines d'expertise !
               </p>
             </div>
@@ -66,8 +66,10 @@
   </script>
   
   <style scoped>
-  .test12 {
+  .texte-orange {
     font-size: large;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .custom-carousel {
