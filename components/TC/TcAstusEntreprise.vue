@@ -8,7 +8,7 @@
             <p>
               L'ASTUS organise aussi des évènements un peu plus sérieux, pour
               vous permettre d'avoir un premier contact avec différentes
-              entreprises le plus tôt possible : JE FAIS UN TEST
+              entreprises le plus tôt possible : 
             </p>
 
           </div>
