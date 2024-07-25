@@ -10,7 +10,7 @@
                 Soirée Humas
               </h2>
               <p>
-              Petit before pour mieux se connaitre puis on enchâine sur une soirée aux Humas avec les autres départs !
+              Petit before pour mieux se connaitre puis on enchaîne sur une soirée aux Humas avec les autres départs !
               </p>
             </div>
           </v-col>
@@ -45,11 +45,16 @@ export default {
     items: [
       {
         title: "Après-midi",
-        content: "Before pour mieux se connaître",
-        icon: "mdi-glass-mug-variant"
+        content: "Before et jeux pour mieux se connaître",
+        icon: "mdi-football"
       },
       {
         title: "Soir",
+        content: "Pizza à 2 euros (oui 2 euros)",
+        icon: "mdi-pizza"
+      },
+      {
+        title: "Soirée",
         content: "Soirée sur la pelouse des Humanités",
         icon: "mdi-party-popper"
       }

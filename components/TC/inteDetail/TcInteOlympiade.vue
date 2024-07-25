@@ -10,8 +10,8 @@
                 Olympiade
               </h2>
               <p>
-                Une compétition sportive entre les TC et les GE suivie d'un
-                repas.
+                Une compétition sportive et culturelle entre les départements suivie d'un
+                repas avant la rentrée.
               </p>
             </div>
           </v-col>
@@ -46,7 +46,7 @@ export default {
     items: [
       {
         title: "Début des hostilités",
-        content: "Vers 17h démarrage des premières activités",
+        content: "Vers 15h démarrage des premières activités",
         icon: "mdi-arm-flex"
       },
       {

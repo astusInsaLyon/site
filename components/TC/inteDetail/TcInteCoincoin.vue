@@ -29,7 +29,7 @@
             <v-card-title class="text-h5 custom-title">
               {{ item.title }}
             </v-card-title>
-            <v-card-text class="white text--primary py-6 text-justify">
+            <v-card-text class="white text--primary py-6">
               {{ item.content }}
             </v-card-text>
           </v-card>

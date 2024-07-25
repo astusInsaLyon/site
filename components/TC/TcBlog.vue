@@ -82,7 +82,7 @@ export default {
           date: "19",
           title: "Soirée Humas",
           content: "Une super soirée sur la pelouse des Humanités qui réunira tous les départements !",
-          image: "rallye",
+          image: "humas",
           link: "#TcBeforeSoiree"
         },
         {
