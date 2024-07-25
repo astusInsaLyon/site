@@ -31,7 +31,7 @@
               <div class="text-bg">
                 <h1 class="text-h1" style="color: black">{{ item.name }}</h1>
                 <br />
-                <p class="text-h4" style="color: black" align="justify">{{ item.desc }}</p>
+                <p class="text-h4 description" style="color: black">{{ item.desc }}</p>
               </div>
             </v-row>
           </v-sheet>
@@ -74,6 +74,10 @@ export default {
 </script>
 
 <style scoped>
+.description {
+  text-align: justify;
+}
+
 .custom-carousel {
   margin-bottom: 3%;
   box-shadow: 5px 5px 5px;
@@ -114,6 +118,10 @@ export default {
   border-radius: 4px;
 }
 @media (max-width: 991px) {
+
+  .description {
+    text-align: center;
+  }
   .entire-sheet-0 {
     background-image: url("@/assets/images/carousel/WEI.jpg");
     background-size: auto 100%;

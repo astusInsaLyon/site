@@ -27,7 +27,7 @@
             <v-card elevation="0" class="team-card overflow-hidden mb-15">
               <div class="social-overlay">
                 <v-img
-                  class="profile-pic"
+                  class="profile-pic fixed-size"
                   :src="getImgUrl(item.profil_pic)"
                   alt="team"
                 />
@@ -86,8 +86,8 @@ export default {
     return {
       members: [
         {
-          name: "Maxime Herry",
-          profil_pic: "max",
+          name: "Antoine Bois--Berlioz",
+          profil_pic: "antoine2",
           facebook: "https://mobile.facebook.com/maxime.herry.92",
           insta: "https://instagram.com/mxm_73_",
           role: "Président",
@@ -95,55 +95,105 @@ export default {
             "Objectivement la seule personne compétente de l'astus"
         },
         {
-          name: "Jean Peaurroy",
-          profil_pic: "jean",
-          facebook: "https://www.facebook.com/jean.peaurroy",
-          insta: "https://instagram.com/jean_prry",
-          role: "Vice Président",
+          name: "Mathias Schraen",
+          profil_pic: "mathias",
+          facebook: "https://mobile.facebook.com/maxime.herry.92",
+          insta: "https://instagram.com/mxm_73_",
+          role: "Vice-Président",
           description:
-            "Il avait vraiment envie d'être vice président (non)"
+            "Objectivement la seule personne compétente de l'astus"
         },
         {
-          name: "Mouahid Balle",
-          profil_pic: "mouahid",
-          facebook: "https://mobile.facebook.com/profile.php?id=100054673613972",
-          insta: "https://instagram.com/zuck",
-          role: "Resp event",
+          name: "Tristan Verdet",
+          profil_pic: "tristan",
+          facebook: "https://mobile.facebook.com/maxime.herry.92",
+          insta: "https://instagram.com/mxm_73_",
+          role: "Trésorier",
           description:
-            "Aime particulièrement appeler les compagnies de bus"
+            "Objectivement la seule personne compétente de l'astus"
         },
         {
-          name: "Hugo Collier",
-          profil_pic: "hugo",
-          facebook: "https://mobile.facebook.com/profile.php?id=100055035902962",
-          insta: "https://instagram.com/hugo_cer22",
+          name: "Thomas Raynaud",
+          profil_pic: "thomas",
+          facebook: "https://mobile.facebook.com/maxime.herry.92",
+          insta: "https://instagram.com/mxm_73_",
           role: "Secrétaire Général",
           description:
-            "A les mêmes fonctions que Staline et en est très fier"
+            "Objectivement la seule personne compétente de l'astus"
         },
         {
-          name: "Augustin Mons",
-          profil_pic: "augustin",
-          facebook: "https://mobile.facebook.com/profile.php?id=100025335888016",
-          insta: "https://instagram.com/augustin.mons",
-          role: "Trésorière",
+          name: "Thibaud Lambert",
+          profil_pic: "thibaud",
+          facebook: "https://mobile.facebook.com/maxime.herry.92",
+          insta: "https://instagram.com/mxm_73_",
+          role: "Secrétaire Adjoint",
           description:
-            "Garde la carte de l'astus précieusement, trop précieusement"
+            "Objectivement la seule personne compétente de l'astus"
+        },
+        {
+          name: "Nina Rodriguez",
+          profil_pic: "nina",
+          facebook: "https://mobile.facebook.com/maxime.herry.92",
+          insta: "https://instagram.com/mxm_73_",
+          role: "Responsable Évenements",
+          description:
+            "Objectivement la seule personne compétente de l'astus"
+        },
+        {
+          name: "Antonin Guy",
+          profil_pic: "antonin",
+          facebook: "https://mobile.facebook.com/maxime.herry.92",
+          insta: "https://instagram.com/mxm_73_",
+          role: "Responsable Communication",
+          description:
+            "Objectivement la seule personne compétente de l'astus"
+        },
+        {
+          name: "Marie Friot",
+          profil_pic: "marie",
+          facebook: "https://mobile.facebook.com/maxime.herry.92",
+          insta: "https://instagram.com/mxm_73_",
+          role: "Responsable Entreprise",
+          description:
+            "Objectivement la seule personne compétente de l'astus"
+        },
+        {
+          name: "Théo Archaud",
+          profil_pic: "theo",
+          facebook: "https://mobile.facebook.com/maxime.herry.92",
+          insta: "https://instagram.com/mxm_73_",
+          role: "Responsable Développement Durable",
+          description:
+            "Objectivement la seule personne compétente de l'astus"
         }
       ]
     };
   },
   methods: {
     getImgUrl(name) {
-      var images = require.context("@/assets/images/team/", false, /\.png$/);
-      return images("./" + name + ".png");
+      var images = require.context("@/assets/images/team/", false, /\.jpg$/);
+      return images("./" + name + ".jpg");
     }
   }
 };
 </script>
 
 <style scoped>
+.fixed-size {
+  width: 200px; /* Ajustez la largeur selon vos besoins */
+  height: 200px; /* Ajustez la hauteur selon vos besoins */
+  object-fit: cover; /* Assure que l'image couvre toute la zone sans déformer */
+}
 .astus-description {
   font-size: 1.2em;
+}
+
+@media (max-width: 991px) {
+  .fixed-size {
+    width: 100%; /* Ajustez la largeur selon vos besoins */
+    height: 450px; /* Ajustez la hauteur selon vos besoins */
+    object-fit: cover; /* Assure que l'image couvre toute la zone sans déformer */
+  }
+  
 }
 </style>

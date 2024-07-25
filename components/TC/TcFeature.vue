@@ -14,7 +14,7 @@
               <p>
                 Vous allez maintenant entamer une formation de 3 ans dans le
                 département Télécommunications, Services et Usages. La formation
-                s'axe autour de 3 piliers TC et un pilier Humas. Ces piliers
+                s'axe autour de 3 piliers TC et un pilier Humanités. Ces piliers
                 sont tout à fait interconnectés, il ne faut donc en négliger
                 aucun.
               </p>
