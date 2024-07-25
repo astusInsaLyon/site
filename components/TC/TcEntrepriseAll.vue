@@ -1,11 +1,37 @@
 <template>
-    <div class="bg-extra-light">
+    <div class="bg-extra-light box-entreprise">
       <v-container>
         <v-row class="mb-5" justify="center">
-          <v-col cols="12" sm="10" md="9" lg="7">
+          <v-col cols="12" sm="10" md="9" lg="4">
             <div class="text-center">
+              <h2 class="ui-title font-weight-bold">Forum ouvert avec Orange</h2>
+              <p class="texte-orange">
+                Le 5 juin 2024 s’est tenu un forum ouvert dans le département avec 15 
+                expert(e)s d’Orange travaillant dans différents domaines. Cybersécurité, 
+                IoT, cloud, management et intervention, consulting, intégration et avant-vente, 
+                les étudiants ont pu échanger sur ces sujets avec plusieurs ingénieurs autour de 
+                différents stands. L’échange fut très enrichissant et a permis à de nombreux étudiants
+                 de découvrir ou d’éclaircir plusieurs domaines d'expertise !
+              </p>
+            </div>
+          </v-col>
+          <v-col cols="12" sm="10" md="9" lg="4">
+            <div class="text-center border">
+              <h2 class="ui-title font-weight-bold">Business game avec Netsf</h2>
+              <p class="texte-orange">
+                Le 5 juin 2024 s’est tenu un forum ouvert dans le département avec 15 
+                expert(e)s d’Orange travaillant dans différents domaines. Cybersécurité, 
+                IoT, cloud, management et intervention, consulting, intégration et avant-vente, 
+                les étudiants ont pu échanger sur ces sujets avec plusieurs ingénieurs autour de 
+                différents stands. L’échange fut très enrichissant et a permis à de nombreux étudiants
+                 de découvrir ou d’éclaircir plusieurs domaines d'expertise !
+              </p>
+            </div>
+          </v-col>
+          <v-col cols="12" sm="10" md="9" lg="4">
+            <div class="text-center ">
               <h2 class="ui-title font-weight-bold">Conférence avec Wavestone</h2>
-              <p class="texte-wavestone">
+              <p class="texte-orange">
                 Le 5 juin 2024 s’est tenu un forum ouvert dans le département avec 15 
                 expert(e)s d’Orange travaillant dans différents domaines. Cybersécurité, 
                 IoT, cloud, management et intervention, consulting, intégration et avant-vente, 
@@ -66,10 +92,20 @@
   </script>
   
   <style scoped>
-  .texte-wavestone {
+
+  .box-entreprise {
+    margin-inline: 0;
+  }
+  .texte-orange {
     font-size: large;
     margin-top: 30px;
     margin-bottom: 30px;
+  }
+  .border {
+    border-right: 3px solid rgb(206, 206, 206);
+    border-left: 3px solid rgb(206, 206, 206);
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .custom-carousel {
@@ -119,6 +155,15 @@
     border-radius: 4px;
   }
   @media (max-width: 991px) {
+    .border {
+      border-left: none;
+      border-right: none;
+      border-top: 3px solid rgb(206, 206, 206);
+      border-bottom: 3px solid rgb(206, 206, 206);
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  
     .entire-sheet-0 {
       background-image: url("@/assets/images/entreprisepage/orange1.jpg");
       background-size: auto 100%;
