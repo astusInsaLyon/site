@@ -8,7 +8,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "nuxt generate && npx gh-pages -d dist"
   },
   "dependencies": {
     "@nuxt/kit": "^3.6.5",
@@ -17,6 +18,7 @@
     "vuetify": "^2.5.5"
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "^1.12.1"
+    "@nuxtjs/vuetify": "^1.12.1",
+    "gh-pages": "^6.1.1"
   }
 }

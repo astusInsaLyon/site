@@ -55,6 +55,9 @@ export default {
   build: {},
 
   generate: {
-    dir: "html"
+    dir: "dist"
+  },
+  router: {
+    base: '/site/' // Remplacez 'nom-du-repo' par le nom de votre repository GitHub
   }
 };
