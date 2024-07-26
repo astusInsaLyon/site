@@ -22,19 +22,19 @@
               <n-link class="nav-link" nuxt to="astus"> Présentation Astus </n-link>
             </li>
             <li class="nav-item" text>
-              <v-menu>
+              <v-menu offset-y>
                 <template v-slot:activator="{ on, attrs }">
-                  <v-btn
-                    class="nav-item"
+                    <v-btn
+                    class="nav-btn"
+                    elevation="0"
+                    text
                     v-bind="attrs"
                     v-on="on"
-                    text
-                    :style="{ opacity }"
-                  >
+                    >
                     Intégration
                   </v-btn>
                 </template>
-                <v-list class="dropdown-list" :style="{ backgroundColor }">
+                <v-list class="nav-dropdown-list" :style="{ backgroundColor }">
                   <v-list-item
                   :to="item.path"
                   v-for="item in items"
@@ -136,5 +136,12 @@ export default {
 
 .navicon {
   color: #32517e !important;
+}
+.nav-btn {
+  color: #32517e;
+  opacity: 0.5;
+}
+.nav-btn:hover {
+  opacity: 1;
 }
 </style>

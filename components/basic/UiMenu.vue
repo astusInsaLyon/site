@@ -163,13 +163,13 @@
               <template v-slot:activator="{ on, attrs }">
                 <v-btn
                   color="success"
-                  elevation="0"
+                  elevation="3"
                   dark
                   outlined
                   v-bind="attrs"
-                  v-on="on"
+                  v-on="off"
                 >
-                  Dropdown
+                  AAAAAA
                 </v-btn>
               </template>
               <v-list>
