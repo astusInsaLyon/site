@@ -128,6 +128,11 @@ export default {
   },
   beforeDestroy() {
     window.removeEventListener('resize', this.handleResize);
+  },
+  beforeRouteEnter(to, from, next) {
+    next(vm => {
+      vm.updateBackgroundColor();
+    });
   }
 };
 </script>
