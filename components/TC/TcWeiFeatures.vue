@@ -75,7 +75,7 @@ export default {
           desc: 
               "Serviette et trousse de toilettes basique bien évidemment. " +
               "On est des puants mais il faudra quand même se doucher une fois ou deux " +
-              '<strong><span style="color : red" >OBLIGRATOIREMENT </span></strong>' +
+              '<strong><span style="color : red" >OBLIGATOIREMENT </span></strong>' +
               "pour le confort de tous.",
           link: "https://www.youtube.com/watch?v=umDr0mPuyQc",
           linkphrase: "Déso"
