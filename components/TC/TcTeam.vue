@@ -6,10 +6,10 @@
           <v-col cols="12" sm="10" md="9" lg="7">
             <div class="text-center">
               <h2 class="section-title font-weight-medium">
-                Le Bureau de l'ASTUS
+                Le Bureau
               </h2>
               <p>
-                Description du bureau 
+                Le G5 de l'ASTUS
               </p>
             </div>
           </v-col>
@@ -21,7 +21,7 @@
             sm="6"
             md="6"
             lg="2"
-            v-for="(item, i) in members"
+            v-for="(item, i) in bureau"
             :key="i"
           >
             <v-card elevation="0" class="team-card overflow-hidden mb-15">
@@ -58,6 +58,64 @@
             </v-card>
           </v-col>
         </v-row>
+
+        <v-row justify="center">
+          <v-col cols="12" sm="10" md="9" lg="7">
+            <div class="text-center">
+              <h2 class="section-title font-weight-medium">
+                Les Responsables
+              </h2>
+              <p>
+                Les seules personnes responsables de l'ASTUS
+              </p>
+            </div>
+          </v-col>
+        </v-row>
+
+         <v-row class="mt-13" justify="center">
+          <v-col
+            cols="12"
+            sm="6"
+            md="6"
+            lg="2"
+            v-for="(item, i) in responsable"
+            :key="i"
+          >
+            <v-card elevation="0" class="team-card overflow-hidden mb-15">
+              <div class="social-overlay">
+                <v-img
+                  class="profile-pic fixed-size"
+                  :src="getImgUrl(item.profil_pic)"
+                  alt="team"
+                />
+                <div class="img-overlay">
+                  <ul>
+                    <li>
+                      <a :href="item.facebook" target="_blank">
+                        <i class="mdi mdi-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a :href="item.insta" target="_blank">
+                        <i class="mdi mdi-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <h5 class="team-title font-weight-medium font-18">
+                  {{ item.name }}
+                </h5>
+                <p class="team-subtitle">{{ item.role }}</p>
+              </div>
+              <p>
+                {{ item.description }}
+              </p>
+            </v-card>
+          </v-col>
+        </v-row>
+
       </v-container>
       <v-row justify="center" class="bg-extra-light">
         <v-col cols="12" sm="10" md="9" lg="7">
@@ -84,12 +142,12 @@ export default {
   name: "TcTeam",
   data() {
     return {
-      members: [
+      bureau: [
         {
-          name: "Antoine Bois--Berlioz",
-          profil_pic: "antoine2",
-          facebook: "https://mobile.facebook.com/maxime.herry.92",
-          insta: "https://instagram.com/mxm_73_",
+          name: "Antoine BBZ",
+          profil_pic: "antoine",
+          facebook: "https://www.facebook.com/profile.php?id=100072108245890",
+          insta: "https://instagram.com/antoineboisberlioz",
           role: "Président",
           description:
             "Objectivement la seule personne compétente de l'astus"
@@ -97,8 +155,8 @@ export default {
         {
           name: "Mathias Schraen",
           profil_pic: "mathias",
-          facebook: "https://mobile.facebook.com/maxime.herry.92",
-          insta: "https://instagram.com/mxm_73_",
+          facebook: "https://www.facebook.com/mathias.schraen",
+          insta: "https://instagram.com/mattylecasiroux",
           role: "Vice-Président",
           description:
             "Objectivement la seule personne compétente de l'astus"
@@ -106,8 +164,8 @@ export default {
         {
           name: "Tristan Verdet",
           profil_pic: "tristan",
-          facebook: "https://mobile.facebook.com/maxime.herry.92",
-          insta: "https://instagram.com/mxm_73_",
+          facebook: "https://www.facebook.com/profile.php?id=100072432049518",
+          insta: "https://www.instagram.com/tristan.vrdt/",
           role: "Trésorier",
           description:
             "Objectivement la seule personne compétente de l'astus"
@@ -115,8 +173,8 @@ export default {
         {
           name: "Thomas Raynaud",
           profil_pic: "thomas",
-          facebook: "https://mobile.facebook.com/maxime.herry.92",
-          insta: "https://instagram.com/mxm_73_",
+          facebook: "https://www.facebook.com/profile.php?id=61550755439039",
+          insta: "https://www.instagram.com/thomas_r4y/",
           role: "Secrétaire Général",
           description:
             "Objectivement la seule personne compétente de l'astus"
@@ -124,17 +182,19 @@ export default {
         {
           name: "Thibaud Lambert",
           profil_pic: "thibaud",
-          facebook: "https://mobile.facebook.com/maxime.herry.92",
-          insta: "https://instagram.com/mxm_73_",
+          facebook: "https://www.facebook.com/profile.php?id=100071759598194",
+          insta: "https://instagram.com/thibaud.lbt",
           role: "Secrétaire Adjoint",
           description:
             "Objectivement la seule personne compétente de l'astus"
-        },
+        }
+      ],
+      responsable: [
         {
           name: "Nina Rodriguez",
           profil_pic: "nina",
-          facebook: "https://mobile.facebook.com/maxime.herry.92",
-          insta: "https://instagram.com/mxm_73_",
+          facebook: "https://www.facebook.com/profile.php?id=100069113111468",
+          insta: "https://www.instagram.com/nina11.06",
           role: "Responsable Évenements",
           description:
             "Objectivement la seule personne compétente de l'astus"
@@ -142,17 +202,17 @@ export default {
         {
           name: "Antonin Guy",
           profil_pic: "antonin",
-          facebook: "https://mobile.facebook.com/maxime.herry.92",
-          insta: "https://instagram.com/mxm_73_",
-          role: "Responsable Communication",
+          facebook: "https://www.facebook.com/antoninguy11",
+          insta: "https://www.instagram.com/antoskuu/",
+          role: "Responsable Com",
           description:
             "Objectivement la seule personne compétente de l'astus"
         },
         {
           name: "Marie Friot",
           profil_pic: "marie",
-          facebook: "https://mobile.facebook.com/maxime.herry.92",
-          insta: "https://instagram.com/mxm_73_",
+          facebook: "https://www.facebook.com/profile.php?id=100069909120799",
+          insta: "https://www.instagram.com/marie_frt8/",
           role: "Responsable Entreprise",
           description:
             "Objectivement la seule personne compétente de l'astus"
@@ -160,9 +220,9 @@ export default {
         {
           name: "Théo Archaud",
           profil_pic: "theo",
-          facebook: "https://mobile.facebook.com/maxime.herry.92",
-          insta: "https://instagram.com/mxm_73_",
-          role: "Responsable Développement Durable",
+          facebook: "https://www.facebook.com/theo.archaud",
+          insta: "https://www.instagram.com/theoo_rchd/",
+          role: "Responsable DD",
           description:
             "Objectivement la seule personne compétente de l'astus"
         }
