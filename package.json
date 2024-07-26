@@ -9,7 +9,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "nuxt generate && npx gh-pages -d dist"
+    "deploy": "nuxt generate && node CreateCNAME.js && npx gh-pages -d dist --nojekyll"
   },
   "dependencies": {
     "@nuxt/kit": "^3.6.5",
