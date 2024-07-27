@@ -28,7 +28,7 @@ npx nuxt start
 
 On peut alors se rendre sur `localhost:3000` et dev en toute tranquilité
 
-## Pour le déployer(héberger) sur github pages
+## Pour le déployer (héberger) sur github pages
 
 ```bash
 npm run deploy
