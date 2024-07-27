@@ -55,9 +55,10 @@ export default {
   build: {},
 
   generate: {
-    dir: "dist"
+    dir: "dist",
   },
   router: {
-    base: '/site/' // Remplacez 'nom-du-repo' par le nom de votre repository GitHub
+    mode: 'hash', // 'hash' is required for GitHub Pages
+    base: '/site/', // Remplacez 'nom-du-repo' par le nom de votre repository GitHub
   }
 };
