@@ -25,7 +25,8 @@
               <v-menu>
                 <template v-slot:activator="{ on, attrs }">
                   <v-btn
-                    class="nav-item"
+                    class="nav-btn"
+                    elevation="0"
                     v-bind="attrs"
                     v-on="on"
                     text
@@ -136,5 +137,12 @@ export default {
 
 .navicon {
   color: #32517e !important;
+}
+.nav-btn {
+  color: #32517e;
+  opacity: 0.5;
+}
+.nav-btn:hover {
+  opacity: 1;
 }
 </style>

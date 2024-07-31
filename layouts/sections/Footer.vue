@@ -43,7 +43,7 @@
       <div class="footer-bottom-bar font-14">
         <div class="d-block d-md-flex align-center">
           <p>
-            Fait avec amour par Antoine Piron, Nicolas Guy et Pierre-louis Vidal
+            Fait avec amour par Antoine Piron, Nicolas Guy, Pierre-louis Vidal, Thibaud Lambert et Antoine Bois-Berlioz
           </p>
         </div>
       </div>
