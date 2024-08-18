@@ -53,6 +53,11 @@ export default {
             "L'événement de début d'année à ne surtout pas rater. En TC nous avons la chance de le réaliser sur 3 jours (jeudi à samedi). Au programme : des jeux, de la baignade et des moments de convivialité."
         },
         {
+          name: "Sorties ski",
+          desc:
+            "Comment résister aux montagnes si proches de Lyon ? Chaque année, l'ASTUS organise des sorties ski pour se détendre le temps d'un week-end."
+        },
+        {
           name: "POT",
           desc:
             "Organisé par des élèves volontaires de 3e année le pot a pour but de présenter le département aux élèves du FIMI. L'occasion de se retrouver pour discuter orientation autour d'un cocktail préparé par vos soins ! (Souvent ceux qui font le pot finissent à l'ASTUS d'ailleurs)"
@@ -98,16 +103,21 @@ export default {
   background-position-y: 50%;
 }
 .entire-sheet-1 {
-  background-image: url("@/assets/images/carousel/pot.jpg");
+  background-image: url("@/assets/images/carousel/ski.jpg");
   background-size: 100% auto;
   background-position-y: 75%;
 }
 .entire-sheet-2 {
+  background-image: url("@/assets/images/carousel/pot.jpg");
+  background-size: 100% auto;
+  background-position-y: 75%;
+}
+.entire-sheet-3 {
   background-image: url("@/assets/images/carousel/retrouvaille.jpg");
   background-size: 100% auto;
   background-position-y: 50%;
 }
-.entire-sheet-3 {
+.entire-sheet-4 {
   background-image: url("@/assets/images/carousel/canoe.jpg");
   background-size: 100% auto;
   background-position-y: 50%;

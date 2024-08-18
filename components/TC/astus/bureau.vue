@@ -197,7 +197,7 @@ export default {
           insta: "https://instagram.com/thibaud.lbt",
           role: "Secrétaire Adjoint",
           description:
-            "Emploie fictif"
+            "Emploi fictif"
         }
       ],
       responsable: [
@@ -219,7 +219,7 @@ export default {
           insta: "https://www.instagram.com/antoskuu/",
           role: "Responsable Com",
           description:
-            "Objectivement la seule personne compétente de l'astus"
+            "Grand gagnant d'une license Photoshop sur un compte Instagram"
         },
         {
           firstName: "Marie",
@@ -229,7 +229,7 @@ export default {
           insta: "https://www.instagram.com/marie_frt8/",
           role: "Responsable Entreprise",
           description:
-            "Objectivement la seule personne compétente de l'astus"
+            "À ce jour, elle a déjà reçu 5 promesses d'embauche"
         },
         {
           firstName: "Théo",
@@ -239,7 +239,7 @@ export default {
           insta: "https://www.instagram.com/theoo_rchd/",
           role: "Responsable DD",
           description:
-            "A toujours un arbre dans son sac"
+            "Proche de la nature, il a toujours un arbre dans son sac"
         }
       ]
     };
