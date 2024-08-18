@@ -14,7 +14,7 @@ export default {
   scrollToTop: true,
   head() {
     return {
-      title: "ASTUS"
+      title: "L'ASTUS",
     };
   },
 

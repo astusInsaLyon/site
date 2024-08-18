@@ -9,6 +9,16 @@
 
 <script>
 export default {
+  scrollToTop: true,
+  head() {
+    return {
+      title: "WEI",
+    };
+  },
+
+  data() {
+    return {};
+  },
   components: {
     TcWeiText: () => import("@/components/TC/wei/banner"),
     TcWeiIntroduction: () => import("@/components/TC/wei/introduction"),
