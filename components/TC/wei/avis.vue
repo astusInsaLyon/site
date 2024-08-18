@@ -34,19 +34,19 @@
                       <a
                         href="/"
                         class="error--text"
-                        v-for="n in item.rating"
-                        :key="n"
+                        v-for="(n, index) in item.rating"
+                        :key="'filled-' + index"
                       >
-                        <i class="mdi mdi-star"></i
-                      ></a>
+                        <i class="mdi mdi-star"></i>
+                      </a>
                       <a
                         href="/"
                         class="grey--text"
-                        v-for="n in 5 - item.rating"
-                        :key="n"
+                        v-for="(n, index) in 5 - item.rating"
+                        :key="'empty-' + index"
                       >
-                        <i class="mdi mdi-star"></i
-                      ></a>
+                        <i class="mdi mdi-star"></i>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -58,6 +58,7 @@
     </div>
   </div>
 </template>
+
 <script>
 export default {
   name: "Testimonial",
