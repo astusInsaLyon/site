@@ -19,9 +19,9 @@ export default {
     return {};
   },
   components: {
-    TcBanner: () => import("@/components/TC/TcBanner"),
-    TcFeature: () => import("@/components/TC/TcFeature"),
-    TcEvent: () => import("@/components/TC/TcEvent")
+    TcBanner: () => import("@/components/TC/accueil/banner"),
+    TcFeature: () => import("@/components/TC/accueil/details"),
+    TcEvent: () => import("@/components/TC/accueil/discover")
   }
 };
 </script>

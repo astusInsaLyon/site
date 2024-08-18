@@ -23,19 +23,6 @@
                 </div>
                 <h5 class="font-weight-medium font-18">{{ item.name }}</h5>
                 <p class="mt-10 mb-8 text-justify" v-html="item.desc"></p>
-                <a
-                  :href="item.link"
-                  target="_blank"
-                  class="
-                    text-themecolor
-                    linking
-                    text-decoration-none
-                    d-flex
-                    align-center
-                  "
-                >
-                  {{ item.linkphrase }} <i class="mdi mdi-arrow-right" style="transform: translateY(2px);"></i>
-                </a>
               </v-card-text>
             </v-card>
           </v-col>
@@ -57,8 +44,6 @@ export default {
             "On a préviligier votre confort en prenant des bungalows " +
             "mais les draps ne sont pas inclus dans l'offre. " +
             "Dans la mesure du possible, pensez à prendre duvet ou draps.",
-          link: "https://www.youtube.com/watch?v=a1dHDVjwMSY",
-          linkphrase: "Vous en aurez besoin"
         },
         {
           name: "Des affaires de bains",
@@ -66,8 +51,6 @@ export default {
           desc:
             "Si vous voulez profiter de la baignade, cela peut s'avérer " +
             "très utile.",
-          link: "https://youtu.be/zd7c5tQCs1I?t=23",
-          linkphrase: "On attend plus de talent de votre part"
         },
         {
           name: "Affaires de toilettes",
@@ -77,8 +60,6 @@ export default {
               "On est des puants mais il faudra quand même se doucher une fois ou deux " +
               '<strong><span style="color : red" >OBLIGATOIREMENT </span></strong>' +
               "pour le confort de tous.",
-          link: "https://www.youtube.com/watch?v=umDr0mPuyQc",
-          linkphrase: "Déso"
         },
         {
           name: "Vêtements",
@@ -89,8 +70,6 @@ export default {
             "des affaires de sports pour faire des activités ! Ça reste du " +
             "camping : ne vous chargez pas trop et " +
             '<strong><span style="color : red" >évitez au maximum les affaires de valeurs.</span></strong>',
-          link: "https://www.youtube.com/watch?v=kZNtdck3T3A",
-          linkphrase: "On évite ça s'il vous plaît"
         }
       ]
     };

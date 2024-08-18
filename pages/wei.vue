@@ -10,10 +10,10 @@
 <script>
 export default {
   components: {
-    TcWeiText: () => import("@/components/TC/TcWeiText"),
-    TcWeiIntroduction: () => import("@/components/TC/TcWeiIntroduction"),
-    TcTestimonial: () => import("@/components/TC/TcTestimonial"),
-    TcWeiFeatures: () => import("@/components/TC/TcWeiFeatures")
+    TcWeiText: () => import("@/components/TC/wei/banner"),
+    TcWeiIntroduction: () => import("@/components/TC/wei/introduction"),
+    TcTestimonial: () => import("@/components/TC/wei/avis"),
+    TcWeiFeatures: () => import("@/components/TC/wei/musthave")
   }
 };
 </script>

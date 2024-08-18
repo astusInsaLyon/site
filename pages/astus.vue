@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import TcAstusEntrepriseVue from '../components/TC/TcAstusEntreprise.vue';
+import TcAstusEntrepriseVue from '../components/TC/astus/details_entreprise.vue';
 
 export default {
   scrollToTop: true,
@@ -23,11 +23,11 @@ export default {
     return {};
   },
   components: {
-    TcTeam: () => import("@/components/TC/TcTeam"),
-    TcAstusText: () => import("@/components/TC/TcAstusText"),
-    TcAstusEvents: () => import("@/components/TC/TcAstusEvents"),
-    TcGallery: () => import("@/components/TC/TcGallery"),
-    TcAstusEntreprise: () => import("@/components/TC/TcAstusEntreprise")
+    TcTeam: () => import("@/components/TC/astus/bureau"),
+    TcAstusText: () => import("@/components/TC/astus/banner"),
+    TcAstusEvents: () => import("@/components/TC/astus/details_event"),
+    TcGallery: () => import("@/components/TC/astus/gallery"),
+    TcAstusEntreprise: () => import("@/components/TC/astus/details_entreprise")
   }
 };
 </script>

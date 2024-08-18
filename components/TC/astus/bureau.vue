@@ -48,7 +48,10 @@
               </div>
               <div>
                 <h5 class="team-title font-weight-medium font-18">
-                  {{ item.name }}
+                  {{ item.firstName }}
+                </h5>
+                <h5 class="font-weight-medium font-18">
+                  {{ item.lastName }}
                 </h5>
                 <p class="team-subtitle">{{ item.role }}</p>
               </div>
@@ -105,7 +108,10 @@
               </div>
               <div>
                 <h5 class="team-title font-weight-medium font-18">
-                  {{ item.name }}
+                  {{ item.firstName }}
+                </h5>
+                <h5 class="font-weight-medium font-18">
+                  {{ item.lastName }}
                 </h5>
                 <p class="team-subtitle">{{ item.role }}</p>
               </div>
@@ -144,63 +150,70 @@ export default {
     return {
       bureau: [
         {
-          name: "Antoine BBZ",
+          firstName: "Antoine",
+          lastName: "Bois-Berlioz",
           profil_pic: "antoine",
           facebook: "https://www.facebook.com/profile.php?id=100072108245890",
           insta: "https://instagram.com/antoineboisberlioz",
           role: "Président",
           description:
-            "Objectivement la seule personne compétente de l'astus"
+            "Objectivement la seule personne compétente"
         },
         {
-          name: "Mathias Schraen",
+          firstName: "Mathias",
+          lastName: "Schraen",
           profil_pic: "mathias",
           facebook: "https://www.facebook.com/mathias.schraen",
           insta: "https://instagram.com/mattylecasiroux",
           role: "Vice-Président",
           description:
-            "Objectivement la seule personne compétente de l'astus"
+            "Il avait vraiment envie d'être vice président (non)"
         },
         {
-          name: "Tristan Verdet",
+          firstName: "Tristan",
+          lastName: "Verdet",
           profil_pic: "tristan",
           facebook: "https://www.facebook.com/profile.php?id=100072432049518",
           insta: "https://www.instagram.com/tristan.vrdt/",
           role: "Trésorier",
           description:
-            "Objectivement la seule personne compétente de l'astus"
+            "Garde la carte de l'astus précieusement, trop précieusement"
         },
         {
-          name: "Thomas Raynaud",
+          firstName: "Thomas",
+          lastName: "Raynaud",
           profil_pic: "thomas",
           facebook: "https://www.facebook.com/profile.php?id=61550755439039",
           insta: "https://www.instagram.com/thomas_r4y/",
           role: "Secrétaire Général",
           description:
-            "Objectivement la seule personne compétente de l'astus"
+            "Adepte des doubles screen twitch / CR en réunion"
         },
         {
-          name: "Thibaud Lambert",
+          firstName: "Thibaud",
+          lastName: "Lambert",
           profil_pic: "thibaud",
           facebook: "https://www.facebook.com/profile.php?id=100071759598194",
           insta: "https://instagram.com/thibaud.lbt",
           role: "Secrétaire Adjoint",
           description:
-            "Objectivement la seule personne compétente de l'astus"
+            "Emploie fictif"
         }
       ],
       responsable: [
         {
-          name: "Nina Rodriguez",
+          firstName: "Nina",
+          lastName: "Rodriguez",
           profil_pic: "nina",
           facebook: "https://www.facebook.com/profile.php?id=100069113111468",
           insta: "https://www.instagram.com/nina11.06",
           role: "Responsable Évenements",
           description:
-            "Objectivement la seule personne compétente de l'astus"
+            "Aime particulièrement appeler les compagnies de bus"
         },
         {
-          name: "Antonin Guy",
+          firstName: "Antonin",
+          lastName: "Guy",
           profil_pic: "antonin",
           facebook: "https://www.facebook.com/antoninguy11",
           insta: "https://www.instagram.com/antoskuu/",
@@ -209,7 +222,8 @@ export default {
             "Objectivement la seule personne compétente de l'astus"
         },
         {
-          name: "Marie Friot",
+          firstName: "Marie",
+          lastName: "Friot",
           profil_pic: "marie",
           facebook: "https://www.facebook.com/profile.php?id=100069909120799",
           insta: "https://www.instagram.com/marie_frt8/",
@@ -218,13 +232,14 @@ export default {
             "Objectivement la seule personne compétente de l'astus"
         },
         {
-          name: "Théo Archaud",
+          firstName: "Théo",
+          lastName: "Archaud",
           profil_pic: "theo",
           facebook: "https://www.facebook.com/theo.archaud",
           insta: "https://www.instagram.com/theoo_rchd/",
           role: "Responsable DD",
           description:
-            "Objectivement la seule personne compétente de l'astus"
+            "A toujours un arbre dans son sac"
         }
       ]
     };

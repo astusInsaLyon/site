@@ -38,18 +38,18 @@ export default {
     };
   },
   components: {
-    TcBlog: () => import("@/components/TC/TcBlog"),
-    TcInteBanner: () => import("@/components/TC/TcInteBanner"),
-    TcInteCoincoin: () => import("@/components/TC/inteDetail/TcInteCoincoin"),
-    TcIntePaint: () => import("@/components/TC/inteDetail/TcIntePaint"),
-    TcInteBeforeSoiree: () => import("@/components/TC/inteDetail/TcInteBeforeSoiree"),
-    TcInteRallye: () => import("@/components/TC/inteDetail/TcInteRallye"),
-    TcInteAday: () => import("@/components/TC/inteDetail/TcInteAday"),
+    TcBlog: () => import("@/components/TC/integration/planning"),
+    TcInteBanner: () => import("@/components/TC/integration/banner"),
+    TcInteCoincoin: () => import("@/components/TC/integration/daybyday/coincoin"),
+    TcIntePaint: () => import("@/components/TC/integration/daybyday/paintball"),
+    TcInteBeforeSoiree: () => import("@/components/TC/integration/daybyday/humas"),
+    TcInteRallye: () => import("@/components/TC/integration/daybyday/rallye"),
+    TcInteAday: () => import("@/components/TC/integration/daybyday/aday"),
     TcInteInterdepart: () =>
-      import("@/components/TC/inteDetail/TcInteInterdepart"),
-    TcInteOlympiade: () => import("@/components/TC/inteDetail/TcInteOlympiade"),
+      import("@/components/TC/integration/daybyday/interdepart"),
+    TcInteOlympiade: () => import("@/components/TC/integration/daybyday/olympiade"),
     TcInteParrainage: () =>
-      import("@/components/TC/inteDetail/TcInteParrainage")
+      import("@/components/TC/integration/daybyday/parrainage")
   }
 };
 </script>

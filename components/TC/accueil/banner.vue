@@ -27,9 +27,9 @@
               </p>
             </div>
           </v-col>
-          <v-col cols="12" md="5" lg="5">
+          <v-col cols="12" md="5" lg="6">
             <v-img
-              :src="require('@/assets/images/banner/banner1.jpg')"
+              :src="require('@/assets/images/banner/banner.jpg')"
               alt="banner"
             />
           </v-col>

@@ -22,7 +22,7 @@ export default {
   },  
   
   components: {
-    TcEntrepriseBanner: () => import("@/components/TC/TcEntrepriseBanner"),
-    TcEntrepriseAll: () => import("@/components/TC/TcEntrepriseAll"),
+    TcEntrepriseBanner: () => import("@/components/TC/entreprise/banner"),
+    TcEntrepriseAll: () => import("@/components/TC/entreprise/carousel"),
   }
 };
