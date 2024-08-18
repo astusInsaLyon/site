@@ -18,9 +18,10 @@
       </v-container>
     </div>
   </template>
+
   <script>
   export default {
-    name: "Bruce",
+    name: "blabla",
     data() {
       return {};
     },

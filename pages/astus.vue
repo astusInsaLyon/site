@@ -9,7 +9,6 @@
 </template>
 
 <script>
-import TcAstusEntrepriseVue from '../components/TC/astus/details_entreprise.vue';
 
 export default {
   scrollToTop: true,
