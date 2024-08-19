@@ -157,7 +157,7 @@ export default {
           insta: "https://instagram.com/antoineboisberlioz",
           role: "Président",
           description:
-            "Objectivement la seule personne compétente"
+            "Dicte chaque mouvement de l’association comme un tyran"
         },
         {
           firstName: "Mathias",
