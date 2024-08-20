@@ -19,12 +19,11 @@
             <div class="text-center border">
               <h2 class="ui-title font-weight-bold">Business game avec Netsf</h2>
               <p class="texte-orange">
-                Le 5 juin 2024 s’est tenu un forum ouvert dans le département avec 15 
-                expert(e)s d’Orange travaillant dans différents domaines. Cybersécurité, 
-                IoT, cloud, management et intervention, consulting, intégration et avant-vente, 
-                les étudiants ont pu échanger sur ces sujets avec plusieurs ingénieurs autour de 
-                différents stands. L’échange fut très enrichissant et a permis à de nombreux étudiants
-                 de découvrir ou d’éclaircir plusieurs domaines d'expertise !
+                Le 8 octobre 2024, Netsf a animé un business game captivant, 
+                permettant aux étudiants de se plonger dans des défis d’entreprise 
+                en conditions réelles. Une belle opportunité pour mettre en pratique 
+                leurs compétences et découvrir le monde professionnel de manière ludique 
+                et interactive.
               </p>
             </div>
           </v-col>
@@ -32,12 +31,11 @@
             <div class="text-center ">
               <h2 class="ui-title font-weight-bold">Conférence avec Wavestone</h2>
               <p class="texte-orange">
-                Le 5 juin 2024 s’est tenu un forum ouvert dans le département avec 15 
-                expert(e)s d’Orange travaillant dans différents domaines. Cybersécurité, 
-                IoT, cloud, management et intervention, consulting, intégration et avant-vente, 
-                les étudiants ont pu échanger sur ces sujets avec plusieurs ingénieurs autour de 
-                différents stands. L’échange fut très enrichissant et a permis à de nombreux étudiants
-                 de découvrir ou d’éclaircir plusieurs domaines d'expertise !
+                Le 12 septembre 2024, Wavestone a organisé une conférence pour présenter 
+                les divers métiers proposés par l'entreprise. Les étudiants ont pu échanger 
+                avec des experts sur des sujets variés, découvrant ainsi de nombreuses  
+                opportunités de carrière. Une occasion enrichissante pour mieux comprendre 
+                les possibilités offertes dans le conseil et le management.
               </p>
             </div>
           </v-col>

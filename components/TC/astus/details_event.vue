@@ -98,7 +98,7 @@ export default {
   margin-inline: 10%;
 }
 .entire-sheet-0 {
-  background-image: url("@/assets/images/carousel/WEI.jpg");
+  background-image: url("@/assets/images/carousel/wei.jpg");
   background-size: 100% auto;
   background-position-y: 50%;
 }
@@ -133,21 +133,26 @@ export default {
     text-align: center;
   }
   .entire-sheet-0 {
-    background-image: url("@/assets/images/carousel/WEI.jpg");
+    background-image: url("@/assets/images/carousel/wei.jpg");
     background-size: auto 100%;
     background-position-x: 50%;
   }
   .entire-sheet-1 {
-    background-image: url("@/assets/images/carousel/pot.jpg");
+    background-image: url("@/assets/images/carousel/ski.jpg");
     background-size: auto 100%;
     background-position-x: 50%;
   }
   .entire-sheet-2 {
-    background-image: url("@/assets/images/carousel/retrouvaille.jpg");
+    background-image: url("@/assets/images/carousel/pot.jpg");
     background-size: auto 100%;
     background-position-x: 50%;
   }
   .entire-sheet-3 {
+    background-image: url("@/assets/images/carousel/retrouvaille.jpg");
+    background-size: auto 100%;
+    background-position-x: 50%;
+  }
+  .entire-sheet-4 {
     background-image: url("@/assets/images/carousel/canoe.jpg");
     background-size: auto 100%;
     background-position-x: 50%;
