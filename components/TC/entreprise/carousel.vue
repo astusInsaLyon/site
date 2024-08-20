@@ -3,7 +3,19 @@
       <v-container>
         <v-row class="mb-5" justify="center">
           <v-col cols="12" sm="10" md="9" lg="4">
-            <div class="text-center">
+            <div class="text-center ">
+              <h2 class="ui-title font-weight-bold">Business game avec Netsf</h2>
+              <p class="texte-orange">
+                Le 15 mars 2024, Netsf a animé un business game captivant, 
+                permettant aux étudiants de se plonger dans des défis d’entreprise 
+                en conditions réelles. Une belle opportunité pour mettre en pratique 
+                leurs compétences et découvrir le monde professionnel de manière ludique 
+                et interactive.
+              </p>
+            </div>
+          </v-col>
+          <v-col cols="12" sm="10" md="9" lg="4">
+            <div class="text-center border ">
               <h2 class="ui-title font-weight-bold">Forum ouvert avec Orange</h2>
               <p class="texte-orange">
                 Le 5 juin 2024 s’est tenu un forum ouvert dans le département avec 15 
@@ -16,22 +28,10 @@
             </div>
           </v-col>
           <v-col cols="12" sm="10" md="9" lg="4">
-            <div class="text-center border">
-              <h2 class="ui-title font-weight-bold">Business game avec Netsf</h2>
-              <p class="texte-orange">
-                Le 8 octobre 2024, Netsf a animé un business game captivant, 
-                permettant aux étudiants de se plonger dans des défis d’entreprise 
-                en conditions réelles. Une belle opportunité pour mettre en pratique 
-                leurs compétences et découvrir le monde professionnel de manière ludique 
-                et interactive.
-              </p>
-            </div>
-          </v-col>
-          <v-col cols="12" sm="10" md="9" lg="4">
             <div class="text-center ">
               <h2 class="ui-title font-weight-bold">Conférence avec Wavestone</h2>
               <p class="texte-orange">
-                Le 12 septembre 2024, Wavestone a organisé une conférence pour présenter 
+                Le 10 octobre 2023, Wavestone a organisé une conférence pour présenter 
                 les divers métiers proposés par l'entreprise. Les étudiants ont pu échanger 
                 avec des experts sur des sujets variés, découvrant ainsi de nombreuses  
                 opportunités de carrière. Une occasion enrichissante pour mieux comprendre 
