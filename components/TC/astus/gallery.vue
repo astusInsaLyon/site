@@ -5,14 +5,14 @@
             :class="'image-' + (n % 2)"
             :src="require('@/assets/images/gallery/1.jpg')"
           /> -->
-      <!-- <ul class="gallery">
-        <li v-for="n in 5" :key="n">
+      <ul class="gallery">
+        <li v-for="n in 7" :key="n">
           <img
             :class="'image-' + (n % 2)"
             :src="require('@/assets/images/gallery/' + n + '.jpg')"
           />
         </li>
-      </ul> -->
+      </ul>
     </v-col>
   </v-row>
 </template>
