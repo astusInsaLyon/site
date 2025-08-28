@@ -153,8 +153,8 @@ export default {
           firstName: "Paul",
           lastName: "Roche",
           profil_pic: "paul",
-          facebook: "https://www.facebook.com/profile.php?id=100072108245890",
-          insta: "https://instagram.com/antoineboisberlioz",
+          facebook: "https://www.facebook.com/paulroche0",
+          insta: "https://www.instagram.com/paulroche0/",
           role: "Président",
           description:
             "Dicte chaque mouvement de l’association comme un tyran"
@@ -163,8 +163,8 @@ export default {
           firstName: "Julien",
           lastName: "Brélivet",
           profil_pic: "julien",
-          facebook: "https://www.facebook.com/mathias.schraen",
-          insta: "https://instagram.com/mattylecasiroux",
+          facebook: "https://www.facebook.com/julien.brlvt",
+          insta: "https://www.instagram.com/julien.brlvt/",
           role: "Vice-Président",
           description:
             "Il avait vraiment envie d'être vice président (non)"
@@ -173,8 +173,8 @@ export default {
           firstName: "William",
           lastName: "Evangelista",
           profil_pic: "william",
-          facebook: "https://www.facebook.com/profile.php?id=100072432049518",
-          insta: "https://www.instagram.com/tristan.vrdt/",
+          facebook: "https://www.facebook.com/el.omega.355",
+          insta: "https://www.instagram.com/wllm.vnglst/",
           role: "Trésorier",
           description:
             "Garde la carte de l'astus précieusement, trop précieusement"
@@ -183,18 +183,18 @@ export default {
           firstName: "Louis",
           lastName: "Alaux",
           profil_pic: "louis",
-          facebook: "https://www.facebook.com/profile.php?id=61550755439039",
-          insta: "https://www.instagram.com/thomas_r4y/",
+          facebook: "https://www.facebook.com/LouisAlaux63",
+          insta: "https://www.instagram.com/louis_.alx/",
           role: "Secrétaire Général",
           description:
-            "Adepte des doubles screen twitch / CR en réunion"
+            "Jamais sans sa moto en visio"
         },
         {
           firstName: "Enzo",
           lastName: "Riviere",
           profil_pic: "enzo",
-          facebook: "https://www.facebook.com/profile.php?id=100071759598194",
-          insta: "https://instagram.com/thibaud.lbt",
+          facebook: "https://www.facebook.com/profile.php?id=100085449556501",
+          insta: "https://www.instagram.com/enzo.riviere01/",
           role: "Secrétaire Adjoint",
           description:
             "Emploi fictif"
@@ -205,28 +205,28 @@ export default {
           firstName: "Rémi",
           lastName: "Duran",
           profil_pic: "remi",
-          facebook: "https://www.facebook.com/profile.php?id=100069113111468",
-          insta: "https://www.instagram.com/nina11.06",
+          facebook: "https://www.facebook.com/furax.null",
+          insta: "https://www.instagram.com/remi_boom_boom/",
           role: "Responsable Évenements",
           description:
-            "Le maître du goofy"
+            "Le maître du goofy (un peu trop d'ailleurs)"
         },
         {
           firstName: "Grégoire",
           lastName: "Blanzat",
           profil_pic: "greg",
-          facebook: "https://www.facebook.com/antoninguy11",
-          insta: "https://www.instagram.com/antoskuu/",
+          facebook: "https://www.facebook.com/profile.php?id=61565415607737",
+          insta: "https://www.instagram.com/greg.blz/",
           role: "Responsable Com",
           description:
-            "Grand gagnant d'une license Photoshop sur un compte Instagram"
+            "On peut compter sur lui pour dormir"
         },
         {
           firstName: "Paul",
           lastName: "Roche",
           profil_pic: "paul",
-          facebook: "https://www.facebook.com/profile.php?id=100069909120799",
-          insta: "https://www.instagram.com/marie_frt8/",
+          facebook: "https://www.facebook.com/paulroche0",
+          insta: "https://www.instagram.com/paulroche0/",
           role: "Responsable Entreprise",
           description:
             "Le cumule des mandats il ne connait pas"
@@ -235,8 +235,8 @@ export default {
           firstName: "Gwendal",
           lastName: "Vantourout",
           profil_pic: "gwendal",
-          facebook: "https://www.facebook.com/theo.archaud",
-          insta: "https://www.instagram.com/theoo_rchd/",
+          facebook: "https://www.facebook.com/gwendalvantourout",
+          insta: "https://www.instagram.com/gwendal_van/",
           role: "Responsable DD",
           description:
             "Sait tellement bien trier qu'il n'a pas besoin d'affiche"
