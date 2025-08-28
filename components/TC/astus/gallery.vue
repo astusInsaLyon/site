@@ -1,14 +1,18 @@
 <template>
   <v-row justify="center">
     <v-col cols="12" sm="10" md="9" lg="12">
-      <ul class="gallery">
-        <li v-for="n in 8" :key="n">
+       <!-- <img
+            :class="'image-' + (n % 2)"
+            :src="require('@/assets/images/gallery/1.jpg')"
+          /> -->
+      <!-- <ul class="gallery">
+        <li v-for="n in 5" :key="n">
           <img
             :class="'image-' + (n % 2)"
             :src="require('@/assets/images/gallery/' + n + '.jpg')"
           />
         </li>
-      </ul>
+      </ul> -->
     </v-col>
   </v-row>
 </template>

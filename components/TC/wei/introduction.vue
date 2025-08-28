@@ -15,18 +15,18 @@
             Ça nous laisse le temps de nous reposer et de profiter du week-end à fond. <br /><br />
             <ul>
               <li style="margin-bottom: 10px;">
-                Jeudi 26 septembre : départ à <strong>14 heures</strong> depuis l'INSA. Ensuite, un trajet de 2-3 heures pour atteindre le camping. 
+                Jeudi 18 septembre : départ à <strong>14 heures</strong> depuis l'INSA. Ensuite, un trajet de 2-3 heures pour atteindre le camping. 
                 À l'arrivée, on vide le bus, on s'installe dans les bungalows, on se remplit le ventre, puis c'est la première soirée du week-end. 
                 Le camping sera entièrement privatisé pour nous ce week-end, avec une salle de soirée disponible !
               </li>
               <li style="margin-bottom: 10px;">
-                Vendredi 27 septembre : de la structure gonflable aux terrains de sport classiques, plusieurs possibilités d'activités 
+                Vendredi 19 septembre : de la structure gonflable aux terrains de sport classiques, plusieurs possibilités d'activités 
                 sont prévues pour cette journée complète au camping. Telles que la baignade, des olympiades, des jeux sportifs, 
                 des activités chill, et bien sûr, la sieste. Voici quelques-unes des installations disponibles : ventreglisse, 
-                ping-pong, babyfoot humain (rien que ça), terrain multi-sport, sumos, salle de jeu, ... Puis, deuxième soirée tous ensemble !
+                ping-pong, piscines, sumos, ... Puis, deuxième soirée tous ensemble !
               </li>
               <li>
-                Samedi 28 septembre : journée de rangement 🥲 Oui on sait, c'est triste mais bon il faut bien revenir à un moment.
+                Samedi 20 septembre : journée de rangement 🥲 Oui on sait, c'est triste mais bon il faut bien revenir à un moment.
                 Du coup, on range tout et on nettoie pour reprendre le bus en début d'après-midi pour un retour samedi soir.
               </li>
             </ul>

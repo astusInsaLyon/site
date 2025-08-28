@@ -4,7 +4,7 @@
       <v-container>
         <v-row justify="center">
           <v-col cols="12" sm="10" md="9" lg="7">
-            <div class="test">Dimanche <span> 22 </span></div>
+            <div class="test">Dimanche <span> 14 </span></div>
             <div class="text-center">
               <h2 class="ui-title font-weight-bold" style="color: #9366ce">
                 Olympiade
@@ -45,8 +45,8 @@ export default {
   data: () => ({
     items: [
       {
-        title: "Début des hostilités",
-        content: "Vers 15h démarrage des premières activités",
+        title: "Début d'après-midi",
+        content: "Début des hostilités",
         icon: "mdi-arm-flex"
       },
       {

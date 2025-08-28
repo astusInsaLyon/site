@@ -4,7 +4,7 @@
       <v-container>
         <v-row justify="center">
           <v-col cols="12" sm="10" md="9" lg="7">
-            <div class="test">Lundi <span> 16 </span></div>
+            <div class="test">Lundi <span> 8 </span></div>
             <div class="text-center">
               <h2 class="ui-title font-weight-bold" style="color: #9366ce">
                 Découverte et ADay
@@ -50,7 +50,7 @@ export default {
       },
       {
         title: "Après-midi ",
-        content: "Visite du département et de l'astus avant de faire un tour du campus",
+        content: "Visite du département et de l'astus et tour du campus",
         icon: "mdi-home-city-outline"
       },
       {

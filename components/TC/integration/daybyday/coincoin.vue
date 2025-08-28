@@ -4,13 +4,13 @@
       <v-container>
         <v-row justify="center">
           <v-col cols="12" sm="10" md="9" lg="7">
-            <div class="test">Vendredi <span> 20 </span></div>
+            <div class="test">Vendredi <span> 12 </span></div>
             <div class="text-center">
               <h2 class="ui-title font-weight-bold" style="color: #9366ce">
-                Journée Coin-Coin
+                Journée de Cohésion
               </h2>
               <p>
-                Une après-midi avec vos magnifiques marraines/parrains, suivie d'un superbe tournoi de Coin-Coin inter-départements pour montrer à tout le monde qui sont les meilleurs !
+                Une soirée avec vos magnifiques marraines/parrains, suivie d'un superbe tournoi de Coin-Coin inter-départements pour montrer à tout le monde qui sont les meilleurs !
               </p>
             </div>
           </v-col>
@@ -44,18 +44,18 @@ export default {
   data: () => ({
     items: [
       {
-        title: "Début d'après-midi",
+        title: "Fin d'après-midi",
         content: "Moment priviligié avec vos marraines / parrains",
         icon: "mdi-glass-mug-variant"
       },
       {
-        title: "Fin d'après-midi",
-        content: "Tournoi de Coin-Coin inter-départ",
+        title: "Début de la soirée",
+        content: "Bouffe au départ avant de partir au charbon pour les plus vaillants",
         icon: "mdi-glass-mug-variant"
       },
       {
         title: "Soir",
-        content: "Bouffe au départ avant de repartir au charbon pour les plus vaillants",
+        content: "Tournoi de Coin-Coin inter-départ",
         icon: "mdi-glass-mug-variant"
       }
     ]

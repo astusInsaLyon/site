@@ -41,9 +41,9 @@ export default {
           name: "Duvet / Draps",
           logo: "bed",
           desc:
-            "On a préviligier votre confort en prenant des bungalows " +
-            "mais les draps ne sont pas inclus dans l'offre. " +
-            "Dans la mesure du possible, pensez à prendre duvet ou draps.",
+            "On a privilégier votre confort en prenant des bungalows " +
+            "mais on ne sait pas si les draps sont inclus dans l'offre. " +
+            "Dans la mesure du possible, essayer de prendre duvet ou draps.",
         },
         {
           name: "Des affaires de bains",
@@ -65,8 +65,7 @@ export default {
           name: "Vêtements",
           logo: "bag-personal",
           desc:
-            "Prévoir des vêtements en fonctions de la météo que l'on communiquera " +
-            "plusieurs jours à l'avance. Ne pas oublier " +
+            "Prévoir des vêtements en fonctions de la météo. Ne pas oublier " +
             "des affaires de sports pour faire des activités ! Ça reste du " +
             "camping : ne vous chargez pas trop et " +
             '<strong><span style="color : red" >évitez au maximum les affaires de valeurs.</span></strong>',
