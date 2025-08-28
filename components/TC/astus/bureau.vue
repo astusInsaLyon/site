@@ -150,9 +150,9 @@ export default {
     return {
       bureau: [
         {
-          firstName: "Antoine",
-          lastName: "Bois-Berlioz",
-          profil_pic: "antoine",
+          firstName: "Paul",
+          lastName: "Roche",
+          profil_pic: "paul",
           facebook: "https://www.facebook.com/profile.php?id=100072108245890",
           insta: "https://instagram.com/antoineboisberlioz",
           role: "Président",
@@ -160,9 +160,9 @@ export default {
             "Dicte chaque mouvement de l’association comme un tyran"
         },
         {
-          firstName: "Mathias",
-          lastName: "Schraen",
-          profil_pic: "mathias",
+          firstName: "Julien",
+          lastName: "Brélivet",
+          profil_pic: "julien",
           facebook: "https://www.facebook.com/mathias.schraen",
           insta: "https://instagram.com/mattylecasiroux",
           role: "Vice-Président",
@@ -170,9 +170,9 @@ export default {
             "Il avait vraiment envie d'être vice président (non)"
         },
         {
-          firstName: "Tristan",
-          lastName: "Verdet",
-          profil_pic: "tristan",
+          firstName: "William",
+          lastName: "Evangelista",
+          profil_pic: "william",
           facebook: "https://www.facebook.com/profile.php?id=100072432049518",
           insta: "https://www.instagram.com/tristan.vrdt/",
           role: "Trésorier",
@@ -180,9 +180,9 @@ export default {
             "Garde la carte de l'astus précieusement, trop précieusement"
         },
         {
-          firstName: "Thomas",
-          lastName: "Raynaud",
-          profil_pic: "thomas",
+          firstName: "Louis",
+          lastName: "Alaux",
+          profil_pic: "louis",
           facebook: "https://www.facebook.com/profile.php?id=61550755439039",
           insta: "https://www.instagram.com/thomas_r4y/",
           role: "Secrétaire Général",
@@ -190,9 +190,9 @@ export default {
             "Adepte des doubles screen twitch / CR en réunion"
         },
         {
-          firstName: "Thibaud",
-          lastName: "Lambert",
-          profil_pic: "thibaud",
+          firstName: "Enzo",
+          lastName: "Riviere",
+          profil_pic: "enzo",
           facebook: "https://www.facebook.com/profile.php?id=100071759598194",
           insta: "https://instagram.com/thibaud.lbt",
           role: "Secrétaire Adjoint",
@@ -202,19 +202,19 @@ export default {
       ],
       responsable: [
         {
-          firstName: "Nina",
-          lastName: "Rodriguez",
-          profil_pic: "nina",
+          firstName: "Rémi",
+          lastName: "Duran",
+          profil_pic: "remi",
           facebook: "https://www.facebook.com/profile.php?id=100069113111468",
           insta: "https://www.instagram.com/nina11.06",
           role: "Responsable Évenements",
           description:
-            "Aime particulièrement appeler les compagnies de bus"
+            "Le maître du goofy"
         },
         {
-          firstName: "Antonin",
-          lastName: "Guy",
-          profil_pic: "antonin",
+          firstName: "Grégoire",
+          lastName: "Blanzat",
+          profil_pic: "greg",
           facebook: "https://www.facebook.com/antoninguy11",
           insta: "https://www.instagram.com/antoskuu/",
           role: "Responsable Com",
@@ -222,24 +222,24 @@ export default {
             "Grand gagnant d'une license Photoshop sur un compte Instagram"
         },
         {
-          firstName: "Marie",
-          lastName: "Friot",
-          profil_pic: "marie",
+          firstName: "Paul",
+          lastName: "Roche",
+          profil_pic: "paul",
           facebook: "https://www.facebook.com/profile.php?id=100069909120799",
           insta: "https://www.instagram.com/marie_frt8/",
           role: "Responsable Entreprise",
           description:
-            "À ce jour, elle a déjà reçu 5 promesses d'embauche"
+            "Le cumule des mandats il ne connait pas"
         },
         {
-          firstName: "Théo",
-          lastName: "Archaud",
-          profil_pic: "theo",
+          firstName: "Gwendal",
+          lastName: "Vantourout",
+          profil_pic: "gwendal",
           facebook: "https://www.facebook.com/theo.archaud",
           insta: "https://www.instagram.com/theoo_rchd/",
           role: "Responsable DD",
           description:
-            "Proche de la nature, il a toujours un arbre dans son sac"
+            "Sait tellement bien trier qu'il n'a pas besoin d'affiche"
         }
       ]
     };

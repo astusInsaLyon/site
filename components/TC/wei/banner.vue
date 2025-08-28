@@ -8,8 +8,8 @@
               Week-End d'Intégration / WEI
             </h2>
             <p style="color: black">
-              Cette année, le week-end d'intégration aura lieu du <strong>jeudi 26 au
-              samedi 28 septembre 2024 </strong>. Nous allons détailler le déroulement sur
+              Cette année, le week-end d'intégration aura lieu du <strong>jeudi 18 au
+              samedi 20 septembre 2024 </strong>. Nous allons détailler le déroulement sur
               cette page et les points importants pour passer un super week-end.
               N'oubliez pas de consulter la
               <a href="#notForgot">liste des choses à ne pas oublier</a> en bas

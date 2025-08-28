@@ -32,8 +32,8 @@ export default {
         { name: "TcIntePaint" },
         { name: "TcInteBeforeSoiree" },
         { name: "TcInteCoincoin" },
-        { name: "TcInteInterdepart" },
-        { name: "TcInteOlympiade" }
+        { name: "TcInteInterdepart" }
+        //{ name: "TcInteOlympiade" }
       ]
     };
   },
@@ -47,7 +47,7 @@ export default {
     TcInteAday: () => import("@/components/TC/integration/daybyday/aday"),
     TcInteInterdepart: () =>
       import("@/components/TC/integration/daybyday/interdepart"),
-    TcInteOlympiade: () => import("@/components/TC/integration/daybyday/olympiade"),
+    //TcInteOlympiade: () => import("@/components/TC/integration/daybyday/olympiade"),
     TcInteParrainage: () =>
       import("@/components/TC/integration/daybyday/parrainage")
   }

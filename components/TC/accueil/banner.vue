@@ -6,7 +6,7 @@
           <v-col cols="12" md="7" lg="6" class="d-flex align-center">
             <div class="text-center text-md-left">
               <v-chip class="bg-dark" text-color="white">
-                Rentrée 2024
+                Rentrée 2025
               </v-chip>
               <h2
                 class="

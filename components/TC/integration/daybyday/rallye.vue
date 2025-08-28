@@ -4,7 +4,7 @@
       <v-container>
         <v-row justify="center">
           <v-col cols="12" sm="10" md="9" lg="7">
-            <div class="test">Mardi <span> 17 </span></div>
+            <div class="test">Mardi <span> 9 </span></div>
             <div class="text-center">
               <h2 class="ui-title font-weight-bold" style="color: #9366ce">
                 Rallye

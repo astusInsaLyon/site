@@ -4,7 +4,7 @@
       <v-container>
         <v-row justify="center">
           <v-col cols="12" sm="10" md="9" lg="7">
-            <div class="test">Jeudi <span> 19 </span></div>
+            <div class="test">Jeudi <span> 11 </span></div>
             <div class="text-center">
               <h2 class="ui-title font-weight-bold" style="color: #9366ce">
                 Soirée Humas
@@ -50,7 +50,7 @@ export default {
       },
       {
         title: "Soir",
-        content: "Pizza à 2 euros (oui 2 euros)",
+        content: "Pizza tous ensemble",
         icon: "mdi-pizza"
       },
       {

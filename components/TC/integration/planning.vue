@@ -55,7 +55,7 @@ export default {
       items: [
         {
           day: "Lundi",
-          date: "16",
+          date: "8",
           title: "Découverte et ADay",
           content: "Globalement une grande visite et l'occasion de tous se rencontrer !",
           image: "aday",
@@ -63,7 +63,7 @@ export default {
         },
         {
           day: "Mardi",
-          date: "17",
+          date: "9",
           title: "Rallye",
           content: "Réalisez plein de défis pour faire gagner ton équipe !",
           image: "rallye",
@@ -71,7 +71,7 @@ export default {
         },
         {
           day: "Mercredi",
-          date: "18",
+          date: "10",
           title: "Paintball TC vs IF",
           content: "Objectif : s'éclater tout en les éclatant",
           image: "paintBall",
@@ -79,7 +79,7 @@ export default {
         },
         {
           day: "Jeudi",
-          date: "19",
+          date: "11",
           title: "Soirée Humas",
           content: "Une super soirée sur la pelouse des Humanités qui réunira tous les départements !",
           image: "humas",
@@ -87,7 +87,7 @@ export default {
         },
         {
           day: "Vendredi",
-          date: "20",
+          date: "12",
           title: "Journée Coin-Coin",
           content: "Passez du temps avec vos marraines / parrains préf avant le légendaire tournoi de coicoin" ,
           image: "coincoin",
@@ -95,7 +95,7 @@ export default {
         },
         {
           day: "Samedi",
-          date: "21",
+          date: "13",
           title: "Journée Interdepart",
           content: "Rencontrer les départs moins bien",
           image: "interdepart",
@@ -103,7 +103,7 @@ export default {
         },
         {
           day: "Dimanche",
-          date: "22",
+          date: "14",
           title: "Olympiade",
           content: "Montrer aux autres départements qui sont les plus forts avant d'enchaîner sur un barbecue",
           image: "olympiade",
@@ -111,7 +111,7 @@ export default {
         },
         {
           day: "Jeudi à samedi",
-          date: "26-28",
+          date: "18-20",
           title: "WEI",
           content: "Le meilleur moment de votre inté",
           image: "wei",

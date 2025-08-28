@@ -4,7 +4,7 @@
       <v-container>
         <v-row justify="center">
           <v-col cols="12" sm="10" md="9" lg="7">
-            <div class="test">Samedi<span> 21</span></div>
+            <div class="test">Samedi<span> 13 </span></div>
             <div class="text-center">
               <h2 class="ui-title font-weight-bold" style="color: #9366ce">
                 Interdepart
@@ -48,17 +48,17 @@ export default {
     items: [
       {
         title: "Ouverture",
-        content: "Vers 10h, vous pouvez aller jouer les petits bizs",
+        content: "On vous tiendra au courant",
         icon: "mdi-check"
       },
       {
         title: "Midi",
-        content: "On sait pas trop, c'est l'EDB qui gère",
+        content: "On sait pas trop, c'est le BDE qui gère",
         icon: "mdi-food"
       },
       {
         title: "Fermeture",
-        content: "Vers 18h fin des activités",
+        content: "On vous tiendra au courant",
         icon: "mdi-close-thick"
       }
     ]
