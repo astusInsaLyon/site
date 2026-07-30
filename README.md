@@ -79,7 +79,7 @@ de servir des photos de 3 Mo à des visiteurs sur mobile.
 - [ ] Confirmer les dates de l'intégration dans `src/content/integration.ts`
       (celles en place sont provisoires et affichées « à confirmer »)
 - [ ] Coller l'URL du Google Form parrainage dans `src/lib/site.ts`
-- [ ] Créer le Google Form de demande d'ajout au groupe WhatsApp, puis coller
+- [ ] Créer le Google Form de demande d'ajout au groupe Messenger, puis coller
       l'URL dans le même fichier
 - [ ] Faire relire la liste des démarches administratives par le bureau
 
@@ -87,7 +87,7 @@ Tant qu'un lien de formulaire vaut `null`, le bouton correspondant s'affiche
 comme désactivé avec la mention « bientôt disponible » au lieu de pointer dans
 le vide.
 
-Le lien d'invitation au groupe WhatsApp ne doit jamais être publié sur le site :
+Le lien du groupe Messenger ne doit jamais être publié sur le site :
 la demande passe par le formulaire, l'ajout reste manuel.
 
 ## Déploiement

@@ -55,9 +55,9 @@ export const faq: { question: string; answer: string }[] = [
       "Non, mais c'est très fortement conseillé. Un parrain ou une marraine de 4A répond aux questions et fait le lien avec le reste du département pendant toute l'intégration.",
   },
   {
-    question: "Pourquoi un formulaire pour le groupe WhatsApp ?",
+    question: "Pourquoi un formulaire pour le groupe Messenger ?",
     answer:
-      "Le lien d'invitation n'est pas diffusé publiquement pour éviter que le groupe de promo soit rejoint par n'importe qui. La demande est traitée manuellement par le bureau.",
+      "Le lien du groupe n'est pas diffusé publiquement pour éviter que la conversation de promo soit rejointe par n'importe qui. La demande est traitée manuellement par le bureau.",
   },
   {
     question: "Faut-il payer pour participer à l'intégration ?",

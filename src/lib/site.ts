@@ -21,8 +21,8 @@ export const links = {
   instagram: "https://www.instagram.com/astusinsa/",
   /* TODO Astus : coller ici l'URL du Google Form parrainage existant. */
   parrainageForm: null as string | null,
-  /* TODO Astus : créer le Google Form de demande d'ajout au groupe WhatsApp, puis coller l'URL. */
-  whatsappForm: null as string | null,
+  /* TODO Astus : créer le Google Form de demande d'ajout au groupe Messenger, puis coller l'URL. */
+  messengerForm: null as string | null,
 } as const;
 
 export type NavItem = {

@@ -8,7 +8,7 @@ import { links } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Kit nouvel étudiant",
   description:
-    "Parrainage, groupe WhatsApp de promo, démarches administratives et contact : tout ce qu'un nouvel arrivant en TC doit faire, au même endroit.",
+    "Parrainage, groupe Messenger de promo, démarches administratives et contact : tout ce qu'un nouvel arrivant en TC doit faire, au même endroit.",
 };
 
 const actions = [
@@ -22,10 +22,10 @@ const actions = [
     pendingLabel: "lien à venir",
   },
   {
-    title: "Groupe WhatsApp de promo",
+    title: "Groupe Messenger de promo",
     description:
       "Le groupe n'est pas ouvert par lien public : tu fais une demande, le bureau t'ajoute manuellement.",
-    href: links.whatsappForm,
+    href: links.messengerForm,
     cta: "Demander à rejoindre",
     Icon: ChatIcon,
     pendingLabel: "formulaire à créer",
