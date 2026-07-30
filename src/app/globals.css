@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+/*
+ * Astus design tokens.
+ * Palette imposee par le cahier des charges : bleu marine, bleu clair/electrique, blanc.
+ * Toute couleur utilisee dans un composant doit venir d'un token ci-dessous.
+ */
+@theme {
+  /* Bleu marine - fonds sombres, texte principal */
+  --color-navy-950: #050f24;
+  --color-navy-900: #0a1f44;
+  --color-navy-800: #12305f;
+  --color-navy-700: #1b437f;
+
+  /* Bleu electrique - accent, CTA, trace de la frise */
+  --color-electric-700: #1449c8;
+  --color-electric-600: #1f6bff;
+  --color-electric-500: #4d93ff;
+  --color-electric-300: #94c2ff;
+  --color-electric-100: #dbe8ff;
+
+  /* Neutres */
+  --color-canvas: #f4f7fd;
+  --color-line: #dfe7f5;
+  --color-ink: #0b1b33;
+  --color-muted: #4a5d78;
+
+  --font-heading: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-work-sans), ui-sans-serif, system-ui, sans-serif;
+
+  /* Densite standard (dial density 4/10) */
+  --spacing-section: 5rem;
+  --spacing-section-lg: 7rem;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* Compense l'en-tete fixe quand on saute vers une ancre */
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    background-color: white;
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    /* Evite le zoom auto iOS et garde 16px de base */
+    -webkit-text-size-adjust: 100%;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-heading);
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Focus clavier visible partout, jamais supprime */
+  :focus-visible {
+    outline: 3px solid var(--color-electric-600);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    background-color: var(--color-electric-600);
+    color: white;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

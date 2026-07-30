@@ -1,24 +1,28 @@
 {
-  "name": "astusweb",
-  "version": "1.0.0",
+  "name": "astus-site",
+  "version": "0.1.0",
   "private": true,
-  "description": "astusweb",
-  "author": "Astus",
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "deploy": "nuxt generate && npx gh-pages -d dist --cname astustc.asso-insa-lyon.fr --nojekyll"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "images": "node scripts/optimize-images.mjs"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.6.5",
-    "core-js": "^3.15.1",
-    "nuxt": "^2.15.7",
-    "vuetify": "^2.5.5"
+    "motion": "^12.42.2",
+    "next": "16.2.12",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "^1.12.1",
-    "gh-pages": "^6.1.1"
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.12",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }

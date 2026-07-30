@@ -1,0 +1,53 @@
+name: Deploy to GitHub Pages
+
+# Déploiement manuel tant que le site n'est pas validé par le bureau.
+# Pour déployer à chaque merge, ajouter sous `on:` :
+#   push:
+#     branches: [master]
+on:
+  workflow_dispatch:
+
+# Pages est configuré en mode "branche" et sert le contenu de gh-pages.
+# Le workflow y pousse le site construit, ce qui déclenche la publication.
+permissions:
+  contents: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # NEXT_PUBLIC_BASE_PATH doit valoir le sous-chemin de publication.
+      # Repo servi sur https://<compte>.github.io/site -> "/site"
+      # Nom de domaine dédié (CNAME)                   -> "" (chaîne vide)
+      - run: npm run build
+        env:
+          NEXT_PUBLIC_BASE_PATH: /site
+
+      # gh-pages ne contient que le résultat du build : un seul commit,
+      # réécrit à chaque déploiement. L'historique du code vit sur master.
+      - name: Publier sur gh-pages
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        working-directory: out
+        run: |
+          git init --quiet --initial-branch gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all
+          git commit --quiet --message "Deploy ${GITHUB_SHA}"
+          git push --quiet --force \
+            "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" \
+            gh-pages
