@@ -92,10 +92,20 @@ la demande passe par le formulaire, l'ajout reste manuel.
 
 ## Déploiement
 
-Le workflow `.github/workflows/deploy.yml` construit le site et le publie sur
-GitHub Pages. Il se déclenche manuellement (onglet Actions, bouton « Run
+Le site est servi sur https://astusinsalyon.github.io/site/.
+
+Le workflow `.github/workflows/deploy.yml` construit le site et pousse le
+résultat sur la branche `gh-pages`, ce qui déclenche la publication : Pages est
+configuré en mode « branche », pas en mode « GitHub Actions ». `gh-pages` ne
+contient donc que le build, réécrit en un commit unique à chaque déploiement ;
+le code vit sur `master`.
+
+Le workflow se déclenche manuellement (onglet Actions, bouton « Run
 workflow »). Pour déployer à chaque merge sur `master`, ajouter
 `push: { branches: [master] }` sous le `on:` en tête du fichier.
+
+Une copie de l'ancien site est conservée sur les branches `old-master` (code
+Nuxt 2) et `old-gh-pages` (build publié jusqu'en janvier 2026).
 
 ### basePath
 
