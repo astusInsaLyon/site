@@ -1,0 +1,19 @@
+.git
+.github
+node_modules
+.next
+out
+archive
+*.docx
+npm-debug.log*
+.env*
+README.md
+docs
+
+# Fichiers de travail des assistants IA
+CLAUDE.md
+AGENTS.md
+PRODUCT.md
+DESIGN.md
+.impeccable
+.claude
