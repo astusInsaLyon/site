@@ -98,7 +98,8 @@ function TimelineItem({ event, index }: { event: IntegrationEvent; index: number
         >
           Jour {index + 1} - {formatShort(event)}
         </span>
-        <span className="text-sm capitalize text-muted">
+        {/* first-letter et non capitalize : "7 Septembre" serait une faute. */}
+        <span className="text-sm text-muted first-letter:uppercase">
           {event.endDate ? formatRange(event) : formatDate(event.date)}
         </span>
       </div>

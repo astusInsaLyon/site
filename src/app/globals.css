@@ -74,6 +74,68 @@
   }
 }
 
+/*
+ * Animations d'ambiance du hero.
+ * Toutes en transform/opacity uniquement : elles restent sur le compositeur
+ * et ne declenchent pas de recalcul de mise en page.
+ */
+@keyframes aurora-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  33% {
+    transform: translate3d(6%, -4%, 0) scale(1.12);
+  }
+  66% {
+    transform: translate3d(-5%, 5%, 0) scale(0.94);
+  }
+}
+
+@keyframes marquee-scroll {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@keyframes sheen-sweep {
+  from {
+    transform: translate3d(-120%, 0, 0);
+  }
+  to {
+    transform: translate3d(220%, 0, 0);
+  }
+}
+
+@utility animate-aurora {
+  animation: aurora-drift 22s ease-in-out infinite;
+}
+
+@utility animate-marquee {
+  animation: marquee-scroll var(--marquee-duration, 55s) linear infinite;
+}
+
+@utility animate-sheen {
+  animation: sheen-sweep 6s ease-in-out infinite;
+}
+
+/* Grille technique du hero, masquee en fondu vers les bords. */
+@utility hero-grid {
+  background-image:
+    linear-gradient(to right, rgb(255 255 255 / 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(255 255 255 / 0.07) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(ellipse 90% 70% at 50% 35%, black 30%, transparent 78%);
+}
+
+/* Chiffres du compte a rebours : largeur fixe pour que rien ne saute. */
+@utility tabular {
+  font-variant-numeric: tabular-nums;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { ArrowRightIcon, ExternalLinkIcon } from "@/components/icons";
+import { HeroBackdrop } from "@/components/hero-backdrop";
 
 /** Bandeau de titre en tête de chaque sous-page. */
 export function PageHero({
@@ -15,21 +16,17 @@ export function PageHero({
   children?: ReactNode;
 }) {
   return (
-    <section className="relative overflow-hidden bg-navy-900 text-white">
-      {/* Halo décoratif, purement visuel */}
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute -right-24 -top-32 h-96 w-96 rounded-full bg-electric-600/25 blur-3xl"
-      />
-      <div className="relative mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-20">
+    <section className="relative overflow-hidden bg-navy-950 text-white">
+      <HeroBackdrop />
+      <div className="relative mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-24">
         {eyebrow && (
-          <p className="font-heading text-sm font-semibold uppercase tracking-[0.18em] text-electric-300">
+          <span className="inline-flex items-center gap-2.5 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 font-heading text-xs font-semibold uppercase tracking-[0.18em] text-electric-300 backdrop-blur-sm">
             {eyebrow}
-          </p>
+          </span>
         )}
-        <h1 className="mt-3 max-w-3xl text-4xl font-bold leading-[1.08] sm:text-5xl">{title}</h1>
+        <h1 className="mt-5 max-w-3xl text-4xl font-bold leading-[1.02] sm:text-6xl">{title}</h1>
         {lead && (
-          <p className="mt-5 max-w-2xl text-lg leading-relaxed text-electric-100/90">{lead}</p>
+          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-electric-100/85">{lead}</p>
         )}
         {children && <div className="mt-8">{children}</div>}
       </div>
