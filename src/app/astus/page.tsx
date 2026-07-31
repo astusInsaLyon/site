@@ -160,19 +160,6 @@ export default function AstusPage() {
             </StaggerItem>
           ))}
         </Stagger>
-
-        <Reveal className="mt-8 rounded-2xl border border-electric-300 bg-electric-100/60 p-5 text-sm leading-relaxed text-navy-800">
-          Le bureau est élu en début d&apos;année civile. Au changement de mandat, mettre à jour la
-          liste dans
-          <code className="mx-1 rounded bg-white px-1.5 py-0.5 font-mono text-xs">
-            src/content/astus.ts
-          </code>
-          et déposer les nouvelles photos dans
-          <code className="mx-1 rounded bg-white px-1.5 py-0.5 font-mono text-xs">
-            public/images/bureau/
-          </code>
-          .
-        </Reveal>
       </Section>
 
       <Section tone="navy">

@@ -42,8 +42,8 @@ export default function DepartementPage() {
 
           <Reveal delay={0.12} className="relative aspect-[4/3] overflow-hidden rounded-2xl">
             <Image
-              src="/images/gallery/4.webp"
-              alt={`Étudiants du département ${site.department}`}
+              src="/images/departement/remise-diplomes.webp"
+              alt={`Remise des diplômes du département ${site.department}`}
               fill
               sizes="(min-width: 1024px) 45vw, 100vw"
               className="object-cover"
