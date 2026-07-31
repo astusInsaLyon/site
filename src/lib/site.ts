@@ -13,16 +13,15 @@ export const site = {
 } as const;
 
 /**
- * Liens externes. Les deux Google Forms sont à remplacer par les vraies URL
- * avant la mise en ligne : tant qu'ils valent null, le bouton s'affiche
+ * Liens externes. Un formulaire remis à null affiche le bouton correspondant
  * comme "bientôt disponible" au lieu de pointer dans le vide.
  */
 export const links = {
   instagram: "https://www.instagram.com/astusinsa/",
-  /* TODO Astus : coller ici l'URL du Google Form parrainage existant. */
-  parrainageForm: null as string | null,
-  /* TODO Astus : créer le Google Form de demande d'ajout au groupe Messenger, puis coller l'URL. */
-  messengerForm: null as string | null,
+  /** Questionnaire de mise en relation avec un parrain ou une marraine. */
+  parrainageForm: "https://forms.gle/RT3o8m8TPg1iUL2h9" as string | null,
+  /** Demande d'ajout au groupe WhatsApp de promo, traitée manuellement par le bureau. */
+  whatsappForm: "https://forms.gle/GxMwsApH5ir4mXmY9" as string | null,
 } as const;
 
 export type NavItem = {

@@ -151,7 +151,7 @@ export const upcoming: UpcomingEvent[] = [
   },
   {
     name: "WEI",
-    when: "du 17 au 19 septembre 2026",
+    when: "du 24 au 26 septembre 2026",
     detail: "Ouverture de la billetterie annoncée sur Instagram.",
   },
 ];

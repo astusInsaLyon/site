@@ -76,18 +76,23 @@ de servir des photos de 3 Mo à des visiteurs sur mobile.
 
 ### À faire avant la mise en ligne
 
-- [ ] Confirmer les dates de l'intégration dans `src/content/integration.ts`
-      (celles en place sont provisoires et affichées « à confirmer »)
-- [ ] Coller l'URL du Google Form parrainage dans `src/lib/site.ts`
-- [ ] Créer le Google Form de demande d'ajout au groupe Messenger, puis coller
-      l'URL dans le même fichier
+- [x] Coller l'URL du Google Form parrainage dans `src/lib/site.ts`
+- [x] Coller l'URL du Google Form de demande d'ajout au groupe WhatsApp
+- [x] Confirmer les dates du WEI (24 au 26 septembre 2026)
+- [ ] Confirmer les dates de la semaine d'intégration dans
+      `src/content/integration.ts` (celles en place sont provisoires et
+      affichées « à confirmer »)
 - [ ] Faire relire la liste des démarches administratives par le bureau
+- [ ] Remplacer la photo des « Soirées au local » par une photo du local
+      (`src/content/astus.ts`)
+- [ ] Remplacer la photo des « Vendredis chill » par la photo transat
+      (`src/content/astus.ts`)
 
 Tant qu'un lien de formulaire vaut `null`, le bouton correspondant s'affiche
 comme désactivé avec la mention « bientôt disponible » au lieu de pointer dans
 le vide.
 
-Le lien du groupe Messenger ne doit jamais être publié sur le site :
+Le lien du groupe WhatsApp ne doit jamais être publié sur le site :
 la demande passe par le formulaire, l'ajout reste manuel.
 
 ## Déploiement

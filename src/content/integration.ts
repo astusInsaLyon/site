@@ -20,7 +20,10 @@ export type IntegrationEvent = {
   highlight?: boolean;
 };
 
-/** ATTENTION : dates à confirmer par le bureau avant la mise en ligne. */
+/**
+ * ATTENTION : seules les dates du WEI (24 au 26 septembre) sont confirmées.
+ * Les dates de la semaine d'intégration restent à valider par le bureau.
+ */
 export const integrationEvents: IntegrationEvent[] = [
   {
     slug: "aday",
@@ -99,8 +102,8 @@ export const integrationEvents: IntegrationEvent[] = [
   },
   {
     slug: "wei",
-    date: "2026-09-17",
-    endDate: "2026-09-19",
+    date: "2026-09-24",
+    endDate: "2026-09-26",
     title: "WEI - week-end d'intégration",
     summary: "Le moment le plus attendu de l'intégration, sur trois jours.",
     details: [

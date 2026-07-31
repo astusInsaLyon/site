@@ -25,7 +25,7 @@ const hubCards = [
     href: "/kit/",
     title: "Kit nouvel étudiant",
     description:
-      "Parrainage, groupe Messenger de promo, démarches administratives. Tout au même endroit.",
+      "Parrainage, groupe WhatsApp de promo, démarches administratives. Tout au même endroit.",
     Icon: CompassIcon,
     image: "/images/gallery/2.webp",
   },
