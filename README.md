@@ -85,8 +85,6 @@ de servir des photos de 3 Mo à des visiteurs sur mobile.
 - [ ] Faire relire la liste des démarches administratives par le bureau
 - [ ] Remplacer la photo des « Soirées au local » par une photo du local
       (`src/content/astus.ts`)
-- [ ] Remplacer la photo des « Vendredis chill » par la photo transat
-      (`src/content/astus.ts`)
 
 Tant qu'un lien de formulaire vaut `null`, le bouton correspondant s'affiche
 comme désactivé avec la mention « bientôt disponible » au lieu de pointer dans

@@ -57,7 +57,7 @@ export const events: AstusEvent[] = [
     kind: "récurrent",
     description:
       "Le goûter du vendredi, ouvert à tout le département. Format court, sans inscription : on passe quand on veut.",
-    image: "/images/gallery/3.webp",
+    image: "/images/carousel/vendredi-chill.webp",
   },
 ];
 
