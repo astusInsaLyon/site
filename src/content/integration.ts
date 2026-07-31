@@ -60,10 +60,21 @@ export const integrationEvents: IntegrationEvent[] = [
     image: "/images/blog/paintBall.webp",
   },
   {
+    slug: "coincoin",
+    date: "2026-09-10",
+    title: "Tournoi Coin-Coin contre les IF",
+    summary: "Le tournoi légendaire, dans la journée, juste avant la soirée Humas.",
+    details: [
+      "Tournoi de coin-coin face au département Informatique.",
+      "Un temps avec son parrain ou sa marraine avant de commencer.",
+    ],
+    image: "/images/blog/coincoin.webp",
+  },
+  {
     slug: "humas",
     date: "2026-09-10",
     title: "Soirée Humas",
-    summary: "La soirée sur la pelouse des Humanités qui réunit tous les départements.",
+    summary: "Le soir même, la soirée sur la pelouse des Humanités.",
     details: [
       "Tous les départements de l'INSA réunis au même endroit.",
       "L'occasion de rencontrer du monde en dehors de TC.",
@@ -71,15 +82,15 @@ export const integrationEvents: IntegrationEvent[] = [
     image: "/images/blog/humas.webp",
   },
   {
-    slug: "coincoin",
+    slug: "vendredi-chill",
     date: "2026-09-11",
-    title: "Journée Coin-Coin",
-    summary: "Du temps avec ton parrain ou ta marraine, puis le tournoi légendaire.",
+    title: "Vendredi chill",
+    summary: "Le goûter du vendredi, ouvert à tout le département.",
     details: [
-      "Première vraie journée avec son parrain ou sa marraine.",
-      "Tournoi de coin-coin l'après-midi.",
+      "Format court et sans inscription : on passe quand on veut.",
+      "Transats et goûter à l'ombre, sur le campus.",
     ],
-    image: "/images/blog/coincoin.webp",
+    image: "/images/carousel/vendredi-chill.webp",
   },
   {
     slug: "interdepart",

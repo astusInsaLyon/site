@@ -43,6 +43,16 @@ export function Timeline({ events }: { events: IntegrationEvent[] }) {
 
   const beamHeight = useTransform(smoothProgress, [0, 1], [0, trackHeight]);
 
+  /*
+   * Numero de journee, compte sur les dates distinctes et non sur la position
+   * dans le tableau : une meme journee peut porter plusieurs evenements, et
+   * ils doivent alors afficher le meme "Jour N".
+   */
+  const dayNumbers = new Map<string, number>();
+  for (const event of events) {
+    if (!dayNumbers.has(event.date)) dayNumbers.set(event.date, dayNumbers.size + 1);
+  }
+
   return (
     <div ref={containerRef} className="relative mx-auto max-w-5xl px-4 py-14 sm:px-6 sm:py-20">
       {/* Rail complet, en gris clair */}
@@ -58,15 +68,15 @@ export function Timeline({ events }: { events: IntegrationEvent[] }) {
       </div>
 
       <ol ref={trackRef} className="relative space-y-12 sm:space-y-16">
-        {events.map((event, index) => (
-          <TimelineItem key={event.slug} event={event} index={index} />
+        {events.map((event) => (
+          <TimelineItem key={event.slug} event={event} day={dayNumbers.get(event.date) ?? 1} />
         ))}
       </ol>
     </div>
   );
 }
 
-function TimelineItem({ event, index }: { event: IntegrationEvent; index: number }) {
+function TimelineItem({ event, day }: { event: IntegrationEvent; day: number }) {
   const reduceMotion = useReducedMotion();
 
   return (
@@ -96,7 +106,7 @@ function TimelineItem({ event, index }: { event: IntegrationEvent; index: number
               : "bg-electric-100 text-electric-700"
           }`}
         >
-          Jour {index + 1} - {formatShort(event)}
+          Jour {day} - {formatShort(event)}
         </span>
         <span className="text-sm capitalize text-muted">
           {event.endDate ? formatRange(event) : formatDate(event.date)}
