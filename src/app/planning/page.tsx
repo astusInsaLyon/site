@@ -3,7 +3,6 @@ import { ScrollProgress } from "@/components/scroll-progress";
 import { Timeline } from "@/components/timeline";
 import { Reveal } from "@/components/reveal";
 import { ButtonLink, PageHero, Section } from "@/components/ui";
-import { ClockIcon } from "@/components/icons";
 import { formatRange, integrationEvents } from "@/content/integration";
 import { site } from "@/lib/site";
 
@@ -29,12 +28,7 @@ export default function PlanningPage() {
         eyebrow={`Intégration ${site.integrationYear}`}
         title="Le planning, jour par jour"
         lead={`Du ${span}. Fais défiler la frise : chaque journée est détaillée dans l'ordre, du premier matin sur le campus jusqu'au WEI.`}
-      >
-        <p className="inline-flex items-center gap-2 rounded-xl border border-white/20 bg-white/5 px-4 py-3 text-sm text-electric-100">
-          <ClockIcon className="h-5 w-5 shrink-0 text-electric-300" />
-          Dates à confirmer par le bureau avant la mise en ligne.
-        </p>
-      </PageHero>
+      />
 
       <Timeline events={integrationEvents} />
 
